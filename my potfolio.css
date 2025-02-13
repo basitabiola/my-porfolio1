@@ -1,0 +1,1820 @@
+
+*{
+    box-sizing: border-box;
+    scrollbar-width: none;
+    font-family: verdana;
+        color: white;
+        margin: 0%;
+        padding: 0px;
+}
+/* body */
+.body{
+    background: linear-gradient(45deg, rgb(2, 95, 95), rgb(80, 2, 80), rgb(102, 67, 1),rgb(2, 95, 95), maroon);
+        animation: me 5s infinite ease;
+        background-size: 500%;
+        background-attachment: fixed;
+    }
+    @keyframes me {
+        0% {
+            background-position: 0% 50%;
+        }
+        50%{
+            background: linear-gradient(200deg);
+        }
+        100% {
+            background-position: 100% 50%;
+        }
+    }
+
+/* navigation bar */
+
+.nav-bar{
+    width: 95%;
+    height: 9vh;
+    background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    margin-left: 2%;
+    border-radius: 10px;
+    border: 1px solid #ffffff5a;
+    box-shadow: 0px 0px 80px #bebebe59;
+    position: fixed;
+    top: 3%;
+}
+
+
+
+/* icon's div */
+.icons{
+    width: 100%;
+    height: 9vh;
+    background: none;
+    display: inline;
+margin-left: 3%;
+margin-top: 15%;
+margin: auto;
+}
+
+/* home icon */
+.home{
+width: 13%;
+background: none; 
+margin-left: 2%;
+transition-duration: 1s;
+}
+/* file icon */
+.file{
+    width: 12%;
+    background: none;
+    border-radius: 5px;
+    margin-left: 2%;
+    transition-duration: 1s;
+}
+/* setting  */
+.setting{
+    width: 11%;
+    background: none;
+    border-radius: 10px;
+    margin-left: 2%;
+    transition-duration: 1s;
+}
+/* tool box */
+.tool{
+width: 12%;
+    background: none;
+    border-radius: 5px;
+    margin-left: 2%;
+    transition-duration: 1s;
+}
+/* edit icon */
+.edit{
+    width: 11%;
+        background: none;
+        border-radius: 5px;
+        margin-left: 2%;
+        transition-duration: 1s;
+}
+/* message icon */
+.message {
+    width: 12%;
+    background: none;
+    border-radius: 5px;
+    margin-right: 2%;
+    transition-duration: 1s;
+}
+.home:hover{
+    border: 3px solid rgba(99, 5, 128, 0.973);
+    width: 15%;;
+    background: rgba(99, 5, 128, 0.973) ;
+    border-radius: 15px;
+}
+.file:hover {
+    border: 7px solid rgba(99, 5, 128, 0.973);
+    width: 14%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 5px;
+}
+.setting:hover {
+    border: 7px solid rgba(99, 5, 128, 0.973);
+    width: 14%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 5px;
+}
+.tool:hover {
+    border: 7px solid rgba(99, 5, 128, 0.973);
+    width: 14%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 5px;
+}
+.edit:hover {
+    border: 7px solid rgba(99, 5, 128, 0.973);
+    width: 14%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 5px;
+}
+
+
+/* anchor tag for the nav bar */
+.a{
+    text-decoration: none;
+    background: none;
+    display: inline;
+}
+
+/* anchor tag for profile */
+.a-profile{
+    text-decoration: none;
+        background: none;
+}
+
+/* profile div */
+
+.profile{
+    width: 90%;
+        height: 80vh;
+        background: #ffffff3b;
+            backdrop-filter: blur(9px);
+            border: 1px solid #ffffff5a;
+        margin-left: 5%;
+        margin-top: 30%;
+        border-radius: 25px;
+        animation: profile 5s infinite;
+}
+@keyframes profile{
+0%{
+box-shadow: 0px 0px 25px rgba(99, 5, 128, 0.973);
+box-sizing: border-box;
+width: 88%;
+transform: scale();
+}
+50%{
+border-right: 3px solid rgba(99, 5, 128, 0.973);
+box-sizing: border-box;
+width: 88%;
+box-shadow: 0px 0px 50px rgba(99, 5, 128, 0.973);
+}
+75%{
+border-bottom: 3px solid rgba(99, 5, 128, 0.973);
+box-sizing: border-box;
+width: 88%;
+box-shadow: 0px 0px 25px rgba(99, 5, 128, 0.973);
+}
+100%{
+border-left: 3px solid rgba(99, 5, 128, 0.973);
+box-sizing: border-box;
+width: 88%;
+box-shadow: 0px 0px 5px rgba(99, 5, 128, 0.973)
+}
+
+
+}
+
+/* my div */
+.mydiv{
+    margin-top: 20%;
+    width: 90%;
+    background: rgba(99, 5, 128, 0.973);
+    margin: auto;
+    border-radius: 25px;
+        margin-top: 5%;
+        animation: mydiv 2s infinite ease-in-out;
+        box-shadow: 0px 15px 35px black;
+}
+@keyframes mydiv {
+    0%{
+transform: translateY(-5%);
+
+    }
+         50% {
+            transform: translateY(5%);
+    
+         }
+           
+        
+    100%{
+        transform: translateY(-5%);
+ }
+    
+}
+
+/* my picture */
+.mypicture{
+    width: 75%;
+    margin-left: 10%;
+    background: none;
+}
+
+/* social media icons */
+.social-media{
+    width: 90%;
+    height: 6vh;
+    background: none;
+    margin: auto;
+    margin-top: -3%;
+    justify-content: center;
+    display: flex;
+}
+
+/* my name */
+.my-name{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 3.8vh;
+display: block;
+background: none;
+margin-top: 7%;
+font-weight: bolder;
+text-align: center;
+animation: name 3s  1;
+}
+@keyframes name {
+    0%{
+transform: scale(5);
+margin-top: -240%;
+opacity: 0.3%;
+    }
+    100%{
+
+    }
+    
+}
+
+/*  the glitch code  */
+.glitch{
+animation: glitches 0.3s 3.5s 1;
+}
+@keyframes glitches {
+    0%{
+color: green;
+margin-top: 6.4%;
+font-size: 3.5vh;
+margin-left: -10%;
+    }
+          10% {
+color: red;
+    margin-top: 6.5%;
+    font-size: 3.5vh;
+          }
+  20% {
+color: yellow;
+    margin-top: 6.9%;
+    font-size: 3.8vh;
+    margin-left: 10%;
+  }
+30% {
+color: black;
+    margin-top: 6.4%;
+    font-size: 3.5vh;
+}
+40%{
+color: blue;
+    margin-top: 6.5%;
+    font-size: 3.5vh;
+}
+50%{
+color: white;
+    margin-top: 6.5%;
+    font-size: 3.8vh;
+}
+60%{
+color: red;
+    margin-top: 6.4%;
+    font-size: 3.7vh;
+}
+70%{
+color: blue;
+    margin-top: 6.4%;
+    font-size: 3.7vh;
+    margin-left: 5%;
+}
+80%{
+color: yellow;
+    margin-top: 6.4%;
+    font-size: 3.7vh;
+    margin-left: -5%;
+}
+90%{
+color: green;
+    margin-top: 6.4%;
+    font-size: 3.7vh;
+    margin-left: 5%;
+}
+100%{
+color: teal;
+    margin-top: 6.4%;
+    font-size: 3.7vh;
+    margin-left: -5%;
+}
+}
+
+/* description */
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+        font-size: 2.8vh;
+        display: block;
+        background: none;
+        margin-top: 3%;
+        color: rgb(187, 184, 184);
+}
+
+/* let's-talk */
+.lets-talk {
+width: 70%;
+background: rgb(149, 9, 241);
+height: 7vh;
+margin-top: -2%;
+box-sizing: border-box;
+margin-left: 15%;
+border: none;
+border-radius: 10px;
+font-size: 3vh;
+font-weight: bolder;
+cursor: pointer;
+}
+
+/* lets talk hover */
+.lets-talk:hover {
+    background: rgb(43, 21, 58);
+}
+
+/*  THE FLOATING DIV STAR  */
+.float{
+    width: 43%;
+    height: 15vh;
+    background: none;
+    position: fixed;
+    bottom: 7%;
+    right: 2%;
+}
+
+/* Download button */
+.download-button{
+    width: 98%;
+    height:6vh ;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 2.2vh;
+    font-weight: bolder;
+    font-family: robote;
+    background: rgb(149, 9, 241);
+    border: none;
+    margin-top: 3%;
+    box-shadow: 0px 3px 8px black;
+}
+
+/* More Template */
+.template-button {
+    width: 98%;
+    height: 6vh;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 2.2vh;
+    font-weight: bolder;
+    font-family: robote;
+    background: rgb(241, 236, 236);
+    color: black;
+    border: none;
+    margin-top: 4%;
+    box-shadow: 0px 3px 8px black;
+}
+
+/* Made in Framer */
+.framer-button {
+    width: 98%;
+    height: 6vh;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 2.2vh;
+    font-weight: bolder;
+    font-family: robote;
+    background: rgb(241, 236, 236);
+        color: black;
+    border: none;
+    margin-top: 5%;
+    box-shadow: 0px 3px 8px black;
+}
+
+/*  THE FLOATING DIV END  */
+
+/* ideas */
+.ideas{
+    font-size: 5vh;
+    font-family: verdana;
+    text-align: center;
+        justify-content: center;
+        display: block;
+        margin-top: 7%;
+        font-weight: bold;
+}
+.ideas1 {
+    font-size: 5vh;
+    color:rgb(149, 9, 241);
+    justify-content:center;
+font-family: verdana;
+}
+
+/* description2 */
+.description2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2.1vh;
+    width: 80%;
+    display: block;
+    background: none;
+    margin-top: 3%;
+    margin-left: 10%;
+    color: rgb(187, 184, 184);
+}
+
+/* experience */
+.experience{
+    font-size: 6vh;
+font-family: verdana;
+font-weight: bolder;
+width: 30%;
+text-align: center;
+justify-items: center;
+margin-top: 10%;
+margin-left: 15%;
+}
+
+/* description */
+.description3 {
+    font-family: Verdana;
+    text-align: center;
+    font-size: 1.7vh;
+    width: 80%;
+    display: block;
+    background: none;
+    margin-top: 3%;
+    margin-left: 10%;
+    color: rgb(187, 184, 184);
+}
+
+/* description 4 */
+.description4 {
+    font-family: Verdana;
+    text-align: center;
+    font-size: 2.5vh;
+    width: 80%;
+    display: block;
+    background: none;
+    margin-top: 3%;
+    margin-left: 10%;
+    color: rgb(187, 184, 184);
+}
+
+/* PROJECTS */
+.projects {
+    font-size: 6vh;
+    font-family: verdana;
+    font-weight: bolder;
+    width: 30%;
+    text-align: center;
+    margin-top: -23%;
+    margin-left: 55%;
+    cursor: pointer;
+}
+
+/* clients */
+.clients {
+    font-size: 6vh;
+    font-family: verdana;
+    font-weight: bolder;
+    width: 30%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+/* let's-talk2 */
+.lets-talk2 {
+    width: 40%;
+    background: rgb(149, 9, 241);
+    height: 6vh;
+    box-sizing: border-box;
+    margin-left: 15%;
+    margin-top: 7%;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 2vh;
+    font-weight: bolder;
+}
+
+/* a withouth decoration */
+.a-none{
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+
+/* sponsored company... */
+#relied{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: 2.5vh;
+        width: 90%;
+        display: block;
+        background: none;
+        margin-top: 13%;
+        margin-left: 5%;
+        color: rgb(187, 184, 184);
+}
+
+/* companies names and logos */
+.companies{
+    width: 80%;
+    height: 9vh;
+    background: none;
+    margin-top: 9%;
+    margin: auto;
+    display: inline;
+}
+
+/* companies logos */
+.c-img{
+    width: 20%;
+    margin-top: 1%;
+}
+
+/* COMPANY NAMES */
+.c-names{
+    font-size: 7vh;
+        font-weight: bolder;
+        background: none;
+}
+
+/* ideas */
+.ideas01 {
+    font-size: 4vh;
+    font-family: verdana;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+/* the grid for desktop view */
+.grid {
+    width: 100%;
+}
+
+/*  stoty star   */
+.story-star{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 0%;
+}
+
+/*  blisscinema   */
+.blisscinema {
+    width: 99%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 0.5%;
+}
+
+/*  rhino   */
+.rhino {
+    width: 100%;
+        height: 100%;
+    border-radius: 10px;
+    margin-left: 0%;
+}
+
+.ideas2 {
+    font-size: 4vh;
+    color: rgb(149, 9, 241);
+    justify-content: center;
+    font-family: verdana;
+}
+
+/* projects */
+
+.project{
+    width: 90%;
+    height: 35vh;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.project-rhino {
+    width: 90%;
+    height: 35vh;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+/* div1 */
+.div1{
+width: 100%;
+height: 75%;
+border-radius: 10px;
+bbackground: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+}
+/* div2 */
+.div2{
+width: 100%;
+    height: 25%;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    border-radius: 10px;
+}
+
+/* projects logos */
+.projects-logos{
+    width: 99%;
+    height: 100%;
+    margin-left: 1%;
+    border-radius: 10px;
+}
+
+/* project names */
+.project-names{
+font-size: 4.5vh;
+background: none;
+font-weight: bolder;
+margin-left: 5%;
+}
+
+/* buttons */
+.next{
+    width: 15%;
+    height: 5vh;
+    background: rgb(149, 9, 241);
+    display: inline-flex;
+    margin-left: 60%;
+    margin-top: 5%;
+    border-radius: 5%;
+        font-size: 2.4vh;
+        font-weight: bold;
+        padding-top: 2%;
+}
+.previous {
+    width: 15%;
+    height: 5vh;
+    background:rgb(149, 9, 241);
+    display: inline-flex;
+    margin-left: 1%;
+    margin-top: 5%;
+    border-radius: 5%;
+    font-size: 2.7vh;
+    font-weight: bold;
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+
+/* clients div */
+.banner-wraper {
+    margin: auto;
+    width: 80%;
+    height: 31vh;
+    background: none;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+        border-radius: 10px;
+}
+
+/*  banners   */
+
+.banners {
+    width: 98%;
+    height: 30vh;
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+    scroll-snap-align: center;
+    padding: 5px 3px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* banner img width */
+.banner-img-width{
+    width: 25%;
+    margin-top: 5%;
+   padding-left: 5%;
+   box-sizing: border-box;
+   background: none;
+   display: block;
+   border-radius: 50%;
+}
+
+/* client names */
+.client-names{
+    font-size: 3vh;
+    font-family: verdana;
+    font-weight: bold;
+    background: none;
+   position: relative;
+   top: -15%;
+   left: 2%;
+}
+
+/* comments */
+.comments{
+    text-align: left;
+    padding-left: 5%;
+    background: none;
+    display: block;
+    font-family: helvetica;
+        font-size: 2.2vh;
+        background: none;
+        color: rgb(219, 216, 216);
+    word-spacing: 3px;
+    line-height: 22px;
+}
+/* ideas */
+.ideas011 {
+    font-size: 4vh;
+    font-family: verdana;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ideas22 {
+    font-size: 4vh;
+    color: rgb(149, 9, 241);
+    justify-content: center;
+    font-family: verdana;
+}
+
+/* projects logos */
+.thoughts-logos {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.project2 {
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+/* grid 2 for desktop view */
+.grid2 {
+    width: 90%;
+    margin: auto;
+}
+
+/* dates */
+.dates {
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 1%;
+    background: none;
+    display: block;
+    font-family: helvetica;
+    font-size: 2.2vh;
+    background: none;
+    color: rgb(219, 216, 216);
+    word-spacing: 3px;
+    line-height: 22px;
+}
+
+/* design thought and perspective */
+.thoughts {
+    font-size: 2.7vh;
+    background: none;
+   font-family: helvetica;
+   font-weight: bold;
+   display: block;
+    margin-left: 5%;
+    text-align: left;
+}
+
+/* example */
+.question{
+    width: 90%;
+    height: 8vh;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    margin: auto;
+border-radius: 10px;
+font-size: 2.6vh;
+text-align: center;
+padding-top: 3%;
+font-family: helvetica;
+font-weight: bolder;
+}
+/* answer */
+.answer{
+    width: 0%;
+        height: 0vh;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        overflow: hidden;
+        transition-duration: 1s;
+        margin: auto;
+        border-radius: 10px;
+        text-align: left;
+            padding-top: 5%;
+            font-size: 1.3rem;
+            font-family: helvetica;
+            font-weight: bolder;
+}
+
+.p:hover>.answer{
+    width: 90%;
+    height: 17vh;
+        margin: auto;
+        margin-top: -5%;
+            border: 1px solid #ffffff5a;
+}
+
+.p{
+margin: auto;
+margin-top: 7%;
+margin-bottom: -5%;
+}
+
+/* collaborate */
+.collaborate{
+    width: 90%;
+    height: 40vh;
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+/* ideas */
+.lets {
+    font-size: 4vh;
+    font-family: verdana;
+    text-align: left;
+    justify-content: left;
+    display: block;
+    margin-top: 2%;
+    font-weight: bold;
+        background: none;
+        padding-left: 5%;
+        padding-top: 5%;
+}
+
+.collabs {
+    font-size: 4vh;
+    color: rgb(138, 10, 223);
+    text-align: left;
+    font-family: verdana;
+    background: none;
+    padding-left: 5%;
+    font-weight: bolder;
+}
+
+
+/* let's work together */
+.work {
+    font-size: 5vh;
+    font-family: verdana;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin-top: 20%;
+    font-weight: bold;
+    display: block;
+}
+
+.work2 {
+    font-size: 4.8vh;
+    color:white;
+    opacity: 0.2;
+    justify-content: center;
+    font-family: verdana;
+    font-weight: bold;
+ display: block;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* my contacts :email */
+
+/* name */
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    font-size: 2.5vh;
+    display: inline;
+    background: none;
+    margin-top: 8%;
+    color: rgb(187, 184, 184);
+}
+
+/* email */
+.email {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 30%;
+    font-size: 2.5vh;
+    display: inline;
+    background: none;
+    margin-top: 8%;
+    color: rgb(187, 184, 184);
+}
+
+/* the inputs */
+.input-name{
+width: 40%;
+height: 4vh;
+border-radius: 5px;
+border: none;
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+margin-left: 5%;
+    margin-top: 4%;
+}
+
+/* email inout */
+.input-email{
+width: 40%;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.input-email::placeholder {
+    color:rgb(187, 184, 184) ;
+    padding-left: 5%;
+}
+
+.input-name::placeholder {
+    color: rgb(187, 184, 184);
+    padding-left: 5%;
+}
+
+/* budget */
+.budget {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    font-size: 2.5vh;
+    display: block;
+    background: none;
+    color: rgb(187, 184, 184);
+}
+
+/* budget input */
+.input-budget {
+    width: 90%;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+/* message */
+.message {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    font-size: 2.5vh;
+    display: block;
+    background: none;
+    margin-top: 1%;
+    color: rgb(187, 184, 184);
+}
+
+.input-message1 {
+    width: 90%;
+    height: 15vh;
+    border-radius: 5px;
+    border: none;
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+    color:rgb(187, 184, 184) ;
+    margin-left: 5%;
+    font-size: 2vh;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+/* submit button */
+.Submit {
+    width: 90%;
+    background: rgb(149, 9, 241);
+    height: 6vh;
+    box-sizing: border-box;
+    margin-left: 5%;
+    border: none;
+    border-radius: 10px;
+    font-size: 3vh;
+    font-weight: bolder;
+    margin-bottom: 17%;
+}
+
+
+/* MEDIA QUERY FOR MOBILE DEVICE */
+
+@media (min-width:700px) {
+
+    /* navigation bar */
+        .nav-bar {
+            width: 80%;
+            height: 12vh;
+            margin-left: 10%;
+            background: #ffffff3b;
+                backdrop-filter: blur(9px);
+                border: 1px solid #ffffff5a;
+        }
+
+        /* icon's div */
+        .icons {
+            width: 100%;
+            height: 10vh;
+            background: none;
+            display: inline;
+            margin-left: 5%;
+        }
+/* home icon */
+.home {
+    width: 6%;
+    margin-left: 7%;
+}
+/* file icon */
+.file {
+    width: 6%;
+    margin-left: 7%;
+}
+/* setting  */
+.setting {
+    width: 5%;
+    margin-left: 7%;
+}
+/* tool box */
+.tool {
+    width: 6%;
+    margin-left: 8%;
+}
+/* edit icon */
+.edit {
+    width: 5%;
+    margin-left: 8%;
+}
+/* message icon */
+.message {
+    width: 6%;
+    margin-right: 8%;
+}
+/* the hover effect for the icons */
+.home:hover {
+    border: 8px solid rgba(99, 5, 128, 0.973);
+    width: 7%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 15px;
+}
+
+.file:hover {
+    border: 8px solid rgba(99, 5, 128, 0.973);
+    width: 7%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 5px;
+}
+
+.setting:hover {
+    border: 8px solid rgba(99, 5, 128, 0.973);
+    width: 6%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 5px;
+}
+
+.tool:hover {
+    border: 8px solid rgba(99, 5, 128, 0.973);
+    width: 7%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 5px;
+}
+
+.edit:hover {
+    border: 8px solid rgba(99, 5, 128, 0.973);
+    width: 6%;
+    ;
+    background: rgba(99, 5, 128, 0.973);
+    border-radius: 5px;
+}
+
+
+/* profile div */
+.profile {
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    width: 14vh;
+    height: 80vh;
+    margin-left: 55%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    box-sizing: border-box;
+    animation: profile 3s infinite;
+}
+
+@keyframes profile {
+    0% {
+        box-shadow: 0px 0px 25px rgba(99, 5, 128, 0.973);
+        width: 37%;
+        transform: scale();
+    }
+
+    50% {
+        border-right: 3px solid rgba(99, 5, 128, 0.973);
+        width: 37%;
+        box-shadow: 0px 0px 700px rgba(99, 5, 128, 0.973);
+    }
+
+    75% {
+        border-bottom: 3px solid rgba(99, 5, 128, 0.973);
+        width: 37%;
+        box-shadow: 0px 0px 55px rgba(99, 5, 128, 0.973);
+    }
+
+    100% {
+        border-left: 3px solid rgba(99, 5, 128, 0.973);
+        width: 37%;
+        box-shadow: 0px 0px 5px rgba(99, 5, 128, 0.973)
+    }
+
+
+}
+/* my picture div */
+.mydiv {
+    margin-top: 20%;
+    width: 75%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+/* my picture */
+.mypicture {
+    width: 75%;
+    margin-left: 10%;
+    background: none;
+}
+/* social media icons */
+.social-media {
+    width: 80%;
+    margin-top: 3%;
+    position: relative;
+        left: -130%;
+        top: -60%;
+        animation: social-media 1s 0.5s  1;
+}
+
+/* animation for the social media */
+@keyframes social-media {
+    from{
+transform: scale(.7) ;
+    }
+    to{
+
+    }
+}
+
+/* my name */
+.my-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16vh;
+    margin-top: 5%;
+    position: relative;
+    left: -130%;
+    top: -60%;
+    animation: name 3s 1 ease-in-out;
+}
+
+/*  the glitch code  */
+.glitch {
+    animation: glitches 0.3s 3.5s 2;
+}
+
+@keyframes glitches {
+    0% {
+        color: green;
+        margin-top: 6.4%;
+        font-size: 16vh;
+        margin-left: -10%;
+    }
+
+    10% {
+        color: yellow;
+        margin-top: 6.5%;
+        font-size: 15vh;
+    }
+
+    20% {
+        color: green;
+        margin-top: 6.9%;
+        font-size: 16vh;
+        margin-left: 10%;
+    }
+
+    30% {
+        color: black;
+        margin-top: 6.4%;
+        font-size: 16.5vh;
+    }
+
+    40% {
+        color: blue;
+        margin-top: 6.5%;
+        font-size: 15vh;
+    }
+
+    50% {
+        color: white;
+        margin-top: 6.5%;
+        font-size: 16vh;
+    }
+
+    60% {
+        color: red;
+        margin-top: 6.4%;
+        font-size: 16vh;
+    }
+
+    70% {
+        color: blue;
+        margin-top: 6.4%;
+        font-size: 16.5vh;
+        margin-left: 5%;
+    }
+
+    80% {
+        color: yellow;
+        margin-top: 6.4%;
+        font-size: 15vh;
+        margin-left: -5%;
+    }
+
+    90% {
+        color: red;
+        margin-top: 6.4%;
+        font-size: 16vh;
+        margin-left: 5%;
+    }
+
+    100% {
+        color: teal;
+        margin-top: 6.4%;
+        font-size: 15.5vh;
+        margin-left: -5%;
+    }
+}
+
+
+/* description */
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3.5vh;
+    display: block;
+    background: none;
+    position: relative;
+        left: -130%;
+        top: -60%;
+    margin-top: 0%;
+    color: rgb(187, 184, 184);
+}
+@keyframes name {
+    0% {
+        transform: scale(5);
+        margin-top: -240%;
+        opacity: 0.3%;
+    }
+    100% {
+
+    }
+}
+/* let's-talk */
+.lets-talk {
+    width: 40%;
+    height: 9vh;
+    margin-top: 5%;
+    margin-left: 25%;
+    position: absolute;
+        right: 30%;
+        top: 80%;
+}
+
+/*  THE FLOATING DIV STAR  */
+.float {
+    width: 15%;
+    height: 15vh;
+    bottom: 10%;
+}
+
+/* ideas */
+.ideas {
+    font-size: 8vh;
+    margin-top: 7%;
+    font-weight: bold;
+}
+
+.ideas1 {
+    font-size: 8vh;
+}
+
+/* description2 */
+.description2 {
+    font-size: 3vh;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+/* experience */
+.experience {
+    font-size: 10vh;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+/* description */
+.description3 {
+    font-size: 3vh;
+}
+/* PROJECTS */
+.projects {
+    font-size: 10vh;
+    text-align: center;
+    margin-top: -10%;
+    margin-left: 50%;
+    cursor: pointer;
+}
+/* clients */
+.clients {
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 35%;
+}
+/* let's-talk2 */
+.lets-talk2 {
+    width: 20%;
+    height: 8vh;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 4vh;
+}
+/* sponsored company... */
+#relied {
+    font-size: 3.5vh;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+/* companies names and logos  div  */
+.companies {
+    width: 50%;
+    height: 9vh;
+    margin-top: 9%;
+    margin: auto;
+    display: inline;
+}
+
+/* companies logos */
+.c-img {
+    width: 10%;
+    margin-top: 1%;
+}
+/* COMPANY NAMES */
+.c-names {
+    font-size: 14vh;
+}
+/* recently done projects */
+.ideas01 {
+    font-size: 8vh;
+}
+.ideas2 {
+    font-size: 8vh;
+}
+
+/* the grid for desktop view */
+.grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    background: none;
+    margin: auto;
+    height: 150vh;
+    margin-bottom: 5%;
+}
+
+/*  stoty star   */
+.story-star {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 0%;
+}
+
+/*  blisscinema   */
+.blisscinema {
+    width: 99%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 0.5%;
+}
+
+/*  rhino   */
+.rhino {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 0%;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+}
+/* projects */
+
+.project {
+    width: 90%;
+    height: 60vh;
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+    border-radius: 10px;
+    margin-top: 10%;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+/* the hover effect */
+.project:hover {
+    width: 94%;
+        height: 64vh;
+}
+
+.project-rhino {
+    width: 90%;
+    height: 60vh;
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+/* the hover effect for rhino */
+.project-rhino:hover {
+    width: 94%;
+    height: 64vh;
+}
+
+/* buttons */
+.next {
+    width: 7%;
+    height: 7vh;
+    display: inline-flex;
+    margin-left: 55%;
+    margin-top: 3%;
+   padding: 6px 7px;
+    font-size: 4vh;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.previous {
+    width: 7%;
+    height: 7vh;
+    display: inline-flex;
+    margin-left: 1%;
+    margin-top: 3%;
+padding: 6px 7px;
+    font-size: 4vh;
+    justify-content: center;
+        text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+/* clients div */
+.banner-wraper {
+    margin: auto;
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+    width: 30%;
+    height: 30vh;
+    background: none;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    border-radius: 10px;
+}
+
+/*  banners   */
+
+.banners {
+    width: 97%;
+    height: 30vh;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+        backdrop-filter: blur(9px);
+        box-shadow: 0px 0px 80px #bebebe59;
+}
+
+/* banner img width */
+.banner-img-width {
+    width: 20%;
+}
+
+/* client names */
+.client-names {
+    font-size: 3vh;
+}
+
+/* comments */
+.comments {
+    text-align: left;
+    padding-left: 5%;
+    font-size: 3vh;
+    background: none;
+    color: rgb(219, 216, 216);
+    word-spacing: 3px;
+    line-height: 32px;
+}
+
+/* projects logos */
+.thoughts-logos {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+/* dates */
+.dates {
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 1%;
+    background: none;
+    display: block;
+    font-family: helvetica;
+    font-size: 2.2vh;
+    background: none;
+    color: rgb(219, 216, 216);
+    word-spacing: 6px;
+    line-height: 30px;
+}
+
+/* ideas */
+.ideas011 {
+    font-size: 8vh;
+    font-family: verdana;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.ideas22 {
+    font-size: 8vh;
+    color: rgb(149, 9, 241);
+    justify-content: center;
+    font-family: verdana;
+}
+
+/* projects */
+.project2 {
+    width: 80%;
+    height: 55vh;
+background: #ffffff3b;
+    backdrop-filter: blur(9px);
+    border: 1px solid #ffffff5a;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.grid2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* example */
+.question {
+    width: 100%;
+    height: 10vh;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 3.5vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1.5%;
+    font-family: helvetica;
+    font-weight: bolder;
+}
+
+/* answer */
+.answer {
+    font-size: 1.3rem;
+    width: 0%;
+    height: 0vh;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+    overflow: hidden;
+    transition-duration: 1s;
+    margin: auto;
+    border-radius: 20px;
+    text-align: left;
+    padding-top: 1%;
+    font-family: helvetica;
+    font-size: 2.5vh;
+}
+
+.p:hover>.answer {
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    margin-top: -1%;
+}
+
+.p {
+    width: 50%;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: -5%;
+}
+/* collaborate */
+.collaborate {
+    width: 30%;
+    height: 40vh;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+/* let's work together */
+.work {
+    font-size: 10vh;
+    margin-top: 5%;
+}
+.work2 {
+    font-size: 10vh;
+}
+
+/* name */
+.name {
+    margin-left: 30%;
+    font-size: 3vh;
+}
+/* email */
+.email {
+    margin-left: 21%;
+    font-size: 3vh;
+    margin-top: 8%;
+}
+/* the inputs */
+.input-name {
+    width: 20%;
+    height: 5.5vh;
+    margin-left: 30%;
+    margin-top: 1%;
+    font-size: 2vh;
+}
+/* email inout */
+.input-email {
+    width: 20%;
+    height: 5.5vh;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 2vh;
+}
+.input-email::placeholder {
+    padding-left: 5%;
+    font-size: 2vh;
+}
+.input-name::placeholder {
+    padding-left: 5%;
+    font-size: 2vh;
+}
+/* budget */
+.budget {
+    margin-left: 30%;
+    font-size: 3vh;
+}
+/* budget input */
+.input-budget {
+    width: 45%;
+    height: 5.5vh;
+    margin-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 2.5vh;
+color: rgb(187, 184, 184);
+}
+/* message */
+.message {
+    margin-left: 30%;
+    font-size: 3vh;
+    margin-top: 1%;
+    color: rgb(187, 184, 184);
+}
+
+.input-message1 {
+    width: 45%;
+    height: 15vh;
+    border-radius: 5px;
+    border: none;
+    background: #ffffff3b;
+        backdrop-filter: blur(9px);
+        border: 1px solid #ffffff5a;
+    color: rgb(187, 184, 184);
+    margin-left: 30%;
+    font-size: 2vh;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+/* submit button */
+.Submit {
+    width: 45%;
+    background: rgb(149, 9, 241);
+    height: 8vh;
+    box-sizing: border-box;
+    margin-left: 30%;
+    border: none;
+    border-radius: 10px;
+    font-size: 3vh;
+    font-weight: bolder;
+}
+}
