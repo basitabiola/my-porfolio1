@@ -1077,6 +1077,7 @@ background: #ffffff3b;
             background: #ffffff3b;
                 backdrop-filter: blur(9px);
                 border: 1px solid #ffffff5a;
+                z-index: 100;
         }
 
         /* icon's div */
